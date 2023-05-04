@@ -1,0 +1,20 @@
+<!-- <p>ng-for works!</p> -->
+<ul>
+  <li *ngFor="let team of teams">
+    {{team.nome}} - {{team.campionato}}
+  </li>
+</ul>
+
+<ul>
+  <li *ngFor="let team of teams">
+    <p *ngIf="team.campionato=='Serie A'">
+      {{team.nome}} - {{team.campionato}}
+    </p>
+  </li>
+</ul>
+
+<ul>
+  <div *ngFor="let team of teams">
+    <li *ngIf="team.campionato=='Serie A'"> {{team.nome}} - {{team.campionato}} </li>
+  </div>
+</ul>

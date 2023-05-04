@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Primi 3-4 bottoni */
+button{
+  height: 50px;
+  width: 100px;
+  color: black;
+  border: 4px solid black;
+  margin-right: 100px;
+}
+
+.sfrosso{
+  background-color: red;
+}
+
+.sfgiallo{
+  background-color: yellow;
+}
+
+.sfverde{
+  background-color: green;
+}
+
+#reset{
+  background-color: black;
+  color: white;
+  border: 4px solid lightskyblue;
+}
+
+/* Cose dopo i bottono */
+.quadrato div{
+  height: 200px;
+  width: 200px;
+  border: 4px solid black;
+  margin-right: 100px;
+  margin-top: 300px;
+}
+
+.quadrato div:nth-child(2){
+  border-radius: 25px;
+}
+
+
+
+/* Generali */
+.accanto{
+  display: flex;
+}
+
+.nullo{
+  opacity: 0;
+}
